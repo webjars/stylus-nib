@@ -1,4 +1,4 @@
-stylus
-======
+stylus-nib
+==========
 
-A WebJar for the stylus project.
+A WebJar for the [stylus-nib](https://github.com/visionmedia/nib) project.

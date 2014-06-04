@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>stylus-nib</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>stylus-nib</name>
     <description>Nib for stylus</description>
     <url>http://webjars.org</url>
@@ -49,18 +49,8 @@
     <dependencies>
         <dependency>
             <groupId>org.webjars</groupId>
-            <artifactId>debug</artifactId>
-            <version>0.8.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>glob</artifactId>
-            <version>4.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>sax</artifactId>
-            <version>0.6.0</version>
+            <artifactId>stylus</artifactId>
+            <version>0.45.1</version>
         </dependency>
     </dependencies>
     
