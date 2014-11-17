@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>stylus-nib</artifactId>
-    <version>1.0.2-2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>stylus-nib</name>
     <description>Nib for stylus</description>
     <url>http://webjars.org</url>
@@ -19,7 +19,7 @@
     <licenses>
         <license>
             <name>MIT</name>
-            <url>https://github.com/visionmedia/nib/blob/master/LICENSE</url>
+            <url>https://github.com/tj/nib/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -40,8 +40,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>1.0.2</upstreamVersion>
-        <upstream.url>https://github.com/visionmedia/nib</upstream.url>
+        <upstreamVersion>1.0.3</upstreamVersion>
+        <upstream.url>https://github.com/tj/nib</upstream.url>
         <extractDir>${project.build.directory}/nib-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
     </properties>
@@ -50,10 +50,10 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>stylus</artifactId>
-            <version>0.45.1</version>
+            <version>0.49.3</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
