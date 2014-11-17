@@ -40,7 +40,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>1.0.2</upstreamVersion>
+        <upstreamVersion>1.0.3</upstreamVersion>
         <upstream.url>https://github.com/tj/nib</upstream.url>
         <extractDir>${project.build.directory}/nib-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
