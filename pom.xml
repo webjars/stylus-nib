@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>stylus-nib</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <name>stylus-nib</name>
     <description>Nib for stylus</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/stylus-nib</url>
         <connection>scm:git:https://github.com/webjars/stylus-nib.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/stylus-nib.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>stylus-nib-1.1.0</tag>
     </scm>
 
     <developers>
@@ -87,14 +87,14 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/v${upstreamVersion}.zip" dest="${project.build.directory}"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/v${upstreamVersion}.zip" dest="${project.build.directory}" />
 
-                                <echo message="moving resources"/>
-                                <move file="${extractDir}/package.json" toDir="${destDir}"/>
-                                <move file="${extractDir}/index.styl" toDir="${destDir}"/>
-                                <move file="${extractDir}/lib" toDir="${destDir}"/>
-                                <move file="${extractDir}/iconic" toDir="${destDir}"/>
+                                <echo message="moving resources" />
+                                <move file="${extractDir}/package.json" toDir="${destDir}" />
+                                <move file="${extractDir}/index.styl" toDir="${destDir}" />
+                                <move file="${extractDir}/lib" toDir="${destDir}" />
+                                <move file="${extractDir}/iconic" toDir="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
